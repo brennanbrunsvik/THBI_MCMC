@@ -33,6 +33,16 @@ nchains_only = 3  ;
 
 if     strcmp(stamp, 'ENAM_trial'); 
     disp('Using default parameters') 
+
+elseif strcmp(stamp, 'eus_mantle_anis'); 
+    % par.inv.niter                     = niter_only; 
+    % par.inv.burnin                    = burnin_only; 
+    % par.inv.cooloff                   = cooloff_only; 
+    % par.inv.nchains                   = nchains_only;  
+    par.mod.mantle.xidepths = [0, 80]'; % Need at least 1 value. If shallower than the Moho (e.g. 0) it is shifted to the Moho depth. 
+    par.datprocess.dat_version = 'HOPPER'; 
+
+
 elseif strcmp(stamp, 'no_anis_mant'); 
     % par.inv.niter                     = niter_only; 
     % par.inv.burnin                    = burnin_only; 

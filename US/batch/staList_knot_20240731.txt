@@ -1,0 +1,9 @@
+TA N10A
+TA O08A
+TA Q07A
+TA Q12A
+TA Q22A
+US ELK
+US WUAZ
+US KNB
+# Need extra line for some reason. TA Q13A
