@@ -1,8 +1,10 @@
 # Joint Inversion of Receiver Functions and Surface Waves Using Markov Chain Monte Carlo
 
+This may not be the most up-to-date version of the code. Please contact us at [brennanbrunsvik@ucsb.edu](mailto:brennanbrunsvik@ucsb.edu) for more information.
+
 This code performs a joint inversion of receiver functions and surface wave data using a Markov Chain Monte Carlo (MCMC) inversion. This is a Trans-dimensional, Hierarchical, Bayesian Inversion (THBI). 
 
-If you use this code, please cite Brunsvik et al. (2024) and Eilon et al. (2018). See also Golos et al. (2024) and Petruska and Eilon (2022). We highly recommend contacting us in case there are updates to the code that are not yet public. 
+If you use this code, please cite Brunsvik et al. (2024) and Eilon et al. (2018). See also Golos et al. (2024) and Petruska and Eilon (2022). 
 
 ## Running the examples
 
