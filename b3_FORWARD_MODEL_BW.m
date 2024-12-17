@@ -57,7 +57,7 @@ if any(strcmp(pdtyps(:,2),'Ps'))
                     laymodel_Puse.(fns{jj}) = laymodel_Puse.(fns{jj})(nuse);
                 end
                 % set appropriate P_inc for the actual base
-                P_inc = rayp2inc(rayp,laymodel_Puse.Vs(end),6371-laymodel_Puse.zlayb(end));
+                P_inc = rayp2inc(rayp,laymodel_Puse.Vp(end),6371-laymodel_Puse.zlayb(end));
             else
                 laymodel_Puse = laymodel;
             end        
